@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Astronaut Chat</string>
+    <string name="splash_app_name">Astronaut</string>
+    <string name="title_splash_app">Chat with your friends</string>
+    <string name="title_sign_in">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="request_sign_up">Bạn chưa có tài khoản?</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="sign_in">Đăng nhập</string>
+
+    <string name="title_sign_up">Đăng ký tài khoản</string>
+    <string name="name_sign_up">Name</string>
+
+
+    <string name="log_out">Đăng xuất</string>
+    <string name="account">Tài khoản</string>
+    <string name="cancel">Hủy</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="info">Quản lý tài khoản</string>
+    <string name="change_info">THAY ĐỔI THÔNG TIN</string>
+    <string name="change_pass">ĐỔI MẬT KHẨU</string>
+    <string name="click_image">Click vào ảnh chọn hình ảnh mới</string>
+    <string name="input_old_pass">Nhập mật khẩu hiện tại</string>
+    <string name="input_new_pass">Nhập mật khẩu mới</string>
+    <string name="input_new_pass_confirm">Nhập lại mật khẩu mới</string>
+    <string name="input_message">Nhập tin nhắn</string>
+    <string name="request_logout">Bạn có muốn đăng xuất không</string>
+
+
+    <string name="channel_name_chat">Channel Chat</string>
+    <string name="channel_des_chat">This is description Channel Chat</string>
+
+
+</resources>

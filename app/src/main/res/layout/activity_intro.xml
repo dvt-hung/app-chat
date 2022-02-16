@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.IntroActivity"
+    android:background="@drawable/splash_bg"
+    >
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:text="@string/splash_app_name"
+        android:textColor="#D549ED"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAppName"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:text="@string/title_splash_app"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgSplash1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/plane" />
+
+    <ImageView
+        android:id="@+id/imgSplash2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgSplash1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toStartOf="@id/imgSplash1"
+        android:src="@drawable/plane" />
+
+    <ImageView
+        android:id="@+id/imgSplash3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgSplash1"
+        android:layout_marginStart="-73dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@id/imgSplash1"
+        android:src="@drawable/plane" />
+
+</RelativeLayout>

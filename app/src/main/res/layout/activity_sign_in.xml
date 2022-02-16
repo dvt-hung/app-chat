@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.SignInActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sign_in"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/coiny"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEdt_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintEnabled="true"
+        app:errorEnabled="true"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="#D575E4"
+        app:hintTextColor="#7A048E"
+        android:padding="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_Email_SignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEdt_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintEnabled="true"
+        app:errorEnabled="true"
+        app:boxStrokeColor="#D575E4"
+        app:hintTextColor="#7A048E"
+        app:endIconMode="password_toggle"
+        android:padding="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_Password_SignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+
+            android:hint="@string/password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/txtRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/request_sign_up"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textColor="#072BF6"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/txtRequest"
+            android:layout_marginStart="5dp"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_SignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:background="@drawable/btn_sign_in_bg"
+        android:textStyle="bold"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:layout_margin="35dp"
+        />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577521222329",
+    "project_id": "astronautchat",
+    "storage_bucket": "astronautchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577521222329:android:cb044a6da0b5b02179d168",
+        "android_client_info": {
+          "package_name": "com.example.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577521222329-rm0iuqknqne418qeidav8ihjbfokd7ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkPRQhngCEuLDGCOT-s2kAQMjtAaM-EmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577521222329-rm0iuqknqne418qeidav8ihjbfokd7ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
